@@ -1,4 +1,4 @@
-package com.ejemplo.exampletest.services;
+package com.pai.rest.exampletest.services;
 
 public interface IServiceB {
     public IServiceA getServiceA();

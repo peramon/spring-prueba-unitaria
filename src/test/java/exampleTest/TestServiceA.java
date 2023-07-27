@@ -1,7 +1,7 @@
 package exampleTest;
 
-import com.ejemplo.exampletest.services.IServiceA;
-import com.ejemplo.exampletest.services.impl.ServiceAImpl;
+import com.pai.rest.exampletest.services.IServiceA;
+import com.pai.rest.exampletest.services.impl.ServiceAImpl;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
