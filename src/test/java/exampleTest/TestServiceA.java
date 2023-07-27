@@ -1,5 +1,7 @@
-import com.ejemplo.services.IServiceA;
-import com.ejemplo.services.impl.ServiceAImpl;
+package exampleTest;
+
+import com.ejemplo.exampletest.services.IServiceA;
+import com.ejemplo.exampletest.services.impl.ServiceAImpl;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -10,6 +12,6 @@ public class TestServiceA {
         int a = 2;
         int b = 2;
         IServiceA serviceA = new ServiceAImpl();
-        assertEquals(serviceA.sum(a, b),4);
+        assertEquals(serviceA.sum(a, b),5);
     }
 }
