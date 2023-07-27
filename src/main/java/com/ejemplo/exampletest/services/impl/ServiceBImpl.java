@@ -1,7 +1,7 @@
-package com.ejemplo.services.impl;
+package com.ejemplo.exampletest.services.impl;
 
-import com.ejemplo.services.IServiceA;
-import com.ejemplo.services.IServiceB;
+import com.ejemplo.exampletest.services.IServiceA;
+import com.ejemplo.exampletest.services.IServiceB;
 
 public class ServiceBImpl implements IServiceB {
 
